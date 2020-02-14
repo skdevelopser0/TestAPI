@@ -13,7 +13,7 @@ namespace TestAPI3.Controllers
         public IEnumerable<string> Get()
         {
 
-            return new string[] { "value3", "value4" };
+            return new string[] { "value5", "value4" };
 
         }
 
@@ -21,7 +21,8 @@ namespace TestAPI3.Controllers
         public string Get(int id)
         {
 
-            return "value5";
+            return "value6";
+
         }
 
         // POST api/values

@@ -10,7 +10,19 @@ namespace TestAPI3.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
+
         }
+
+
+        [HttpPost]
+        public ActionResult Index1()
+        {
+
+            return View();
+
+        }
+
     }
 }
